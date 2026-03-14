@@ -1,12 +1,18 @@
-# smallest number evenly divisible by 1, 2, 3, ... 20
+from math import sqrt, floor
 
-from math import factorial as fact
-divisors = [i for i in range(2,20)]
+def divcheck(n):
+    divcap = 20
+    divnum = 2
+    while divnum <= divcap:
+        if n % divnum != 0:
+            return False
+        divnum += 1
+    
+    return True
 
-num = fact(20)
-for i in divisors:
-    while num % i == 0:
-        num //= i
-    num * i 
-
-print(num)
+flag = True
+n = 2
+while flag:
+    n += 1 
+    flag = not(divcheck(n))
+print(n)
