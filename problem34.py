@@ -8,18 +8,24 @@ def fact(n, cache=None):
     if n in cache:
         return cache[n]
     
-    cache[n] = n * fact(n-1)
+    cache[n] = n * fact(n-1, cache)
 
     return cache[n]
 
+facts = {}
+for idx in range(10): 
+    facts[idx] = fact(idx)
+
+maxval = 7 * facts[9]
+
 vals = []
 num = 10
-while True:
+for num in range(10, maxval):
     total = 0
     num_str = str(num)
     for i in num_str:
-        total += fact(int(i))
+        total += facts[int(i)]
     if total == num:
         vals.append(num)
-    num += 1 
-    print(sum(vals))
+
+print(sum(vals))
