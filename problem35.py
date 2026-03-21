@@ -1,5 +1,5 @@
 def prime_generator(cap):
-    if cap < 1:
+    if cap < 2:
         return set()
     
     cache = [2]
@@ -22,7 +22,7 @@ def prime_generator(cap):
 
     return cache
 
-primes = prime_generator(1_000_000)
+primes = set(prime_generator(1_000_000))
 
 
 def circle_num(num):
