@@ -1,6 +1,3 @@
-
-
-
 def prime_generator(cap):
     primes = [2]
     current_number = 3
