@@ -1,0 +1,1 @@
+print(sum(int(idx) for idx in str(pow(2, 1000))))
