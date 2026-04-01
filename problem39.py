@@ -1,4 +1,4 @@
-def is_right_hand(a, b, c):
+def is_right_triangle(a, b, c):
     return a * a + b * b == c * c
 
 
@@ -11,7 +11,7 @@ while perimeter > 3:
     for a in range(perimeter // 3):
         for b in range(a, (perimeter - a) // 2):
             c = perimeter - a - b
-            if is_right_hand(a, b, c):
+            if is_right_triangle(a, b, c):
                 count += 1
 
 
