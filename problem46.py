@@ -1,46 +1,45 @@
-primes = {2, 3, 5, 7}
-
-def prime_generator(start, stop):
-    num = start if (start % 2) else start + 1 
-
-    while stop > num:
-        is_prime = True
-        for prime in primes:
-            if prime * prime > num:
-                break
-
-            if not (num % prime):
-                is_prime = False 
-                break 
-            
-        if is_prime:
-            primes.add(num)
-        
-        num += 2    
+from time import perf_counter
+from math import sqrt, ceil
 
 
-previous_level = 9
-buffer_low = 3 # skip 2 and previous non-primes
-buffer_high = 1000
-not_found = True
+in_time = perf_counter()
 
-while not_found:
-    prime_generator(buffer_low, buffer_high)
-    for num in range(previous_level, buffer_high+1, 2):
-        if num in primes:
-            continue
-        
-        is_compliant = False
-        for val in range(1, int((num / 2) ** 0.5)+1):
-            if (num - 2 * val * val) in primes:
-                is_compliant = True
-                break
+def generate_primes(cap):
+    candidates = {num:True for num in range(2, cap+1)}
     
-        if not is_compliant:
-            print(num)
-            not_found = False
+    for i in range(2, ceil(sqrt(cap))+1):
+        if candidates[i]:
+            for j in range(i*i, cap + 1, i):
+                candidates[j] = False
+
+
+    vals = []
+    for value, ident in candidates.items():
+        if ident:
+            vals.append(value)
+
+    return vals
+
+
+limit = 10_000
+
+raw_primes = generate_primes(limit)
+nums = set(i for i in range(3, limit + 2, 2))
+primes = set(raw_primes)
+non_prime_odds = nums.difference(primes)
+
+
+for value in non_prime_odds:
+    is_compliant = False
+    for num in range(1, int(sqrt(value / 2)) + 1):
+        if value - 2 * num * num in primes:
+            is_compliant = True
             break
-        
-            
-    buffer_low = buffer_high + 1 
-    buffer_high += 1000
+    
+    if not is_compliant:
+        print(value)
+        break
+
+final_time = perf_counter()
+
+print(final_time-in_time)
