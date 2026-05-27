@@ -1,4 +1,4 @@
-with open("keylog.txt", "r") as keylog:
+with open("include/keylog.txt", "r") as keylog:
     nums = keylog.read().split("\n")
 
 nums.remove("")
@@ -25,7 +25,7 @@ for _ in range(len(after.keys())):
     for key, val in after.items():
         if len(val) - n == 0:
             passcode += key
-            n += 1 
-    
-    
+            n += 1
+
+
 print(passcode[::-1])

@@ -1,10 +1,9 @@
 from math import log10
 from time import perf_counter
 
-
 initial_time = perf_counter()
 
-with open("base_exp.txt", "r") as file:
+with open("include/base_exp.txt", "r") as file:
     values = []
     raw_txt = file.read().split("\n")
     for element in raw_txt:
