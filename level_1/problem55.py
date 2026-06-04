@@ -23,6 +23,6 @@ def lychrel_counter(cap=10_000):
     return lychrel_count
 
 
-print(lychrel_counter(10_000))
+print(lychrel_counter())
 
 print(perf_counter() - initial_time)
