@@ -12,7 +12,7 @@ def is_palindrome(num):
 
 
 def lychrel_counter(cap=10_000):
-    lychrel_count = 10_000 - 1
+    lychrel_count = cap - 1
     for num in range(1, cap):
         for iters in range(50):
             num = reverse_sum(num)
@@ -23,6 +23,6 @@ def lychrel_counter(cap=10_000):
     return lychrel_count
 
 
-print(lychrel_counter())
+print(lychrel_counter(1_000_000))
 
 print(perf_counter() - initial_time)
