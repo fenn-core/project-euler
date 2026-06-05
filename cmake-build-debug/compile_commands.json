@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/pusana/Desktop/project-euler/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/pusana/Desktop/project-euler/c/perf -g -fdiagnostics-color=always -o CMakeFiles/problem1.dir/c/level_0/problem1.c.o -c /home/pusana/Desktop/project-euler/c/level_0/problem1.c",
+  "file": "/home/pusana/Desktop/project-euler/c/level_0/problem1.c",
+  "output": "/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem1.dir/c/level_0/problem1.c.o"
+},
+{
+  "directory": "/home/pusana/Desktop/project-euler/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/pusana/Desktop/project-euler/c/perf -g -fdiagnostics-color=always -o CMakeFiles/problem1.dir/c/perf/perf.c.o -c /home/pusana/Desktop/project-euler/c/perf/perf.c",
+  "file": "/home/pusana/Desktop/project-euler/c/perf/perf.c",
+  "output": "/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem1.dir/c/perf/perf.c.o"
+},
+{
+  "directory": "/home/pusana/Desktop/project-euler/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/pusana/Desktop/project-euler/c/perf -g -fdiagnostics-color=always -o CMakeFiles/problem2.dir/c/level_0/problem2.c.o -c /home/pusana/Desktop/project-euler/c/level_0/problem2.c",
+  "file": "/home/pusana/Desktop/project-euler/c/level_0/problem2.c",
+  "output": "/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem2.dir/c/level_0/problem2.c.o"
+},
+{
+  "directory": "/home/pusana/Desktop/project-euler/cmake-build-debug",
+  "command": "/usr/bin/cc -I/home/pusana/Desktop/project-euler/c/perf -g -fdiagnostics-color=always -o CMakeFiles/problem2.dir/c/perf/perf.c.o -c /home/pusana/Desktop/project-euler/c/perf/perf.c",
+  "file": "/home/pusana/Desktop/project-euler/c/perf/perf.c",
+  "output": "/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem2.dir/c/perf/perf.c.o"
+}
+]
