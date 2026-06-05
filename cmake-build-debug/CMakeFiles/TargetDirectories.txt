@@ -1,4 +1,0 @@
-/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem1.dir
-/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/problem2.dir
-/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pusana/Desktop/project-euler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
