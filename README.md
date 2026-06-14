@@ -16,9 +16,9 @@ This file is updated with the included Python script.
 ## Language Implementation Counts
 
 | Language | Implemented |
-|---|---:|
-| Python | 46 |
-| C | 2 |
+|---|------------:|
+| Python |          46 |
+| C |           3 |
 
 ## Legend
 
@@ -33,14 +33,14 @@ This file is updated with the included Python script.
 
 ## Implemented Problems
 
-| Problem | Difficulty | Title | Python | C |
+| Problem | Difficulty | Title | Python |  C  |
 |---:|---:|---|:---:|:---:|
 | [001](https://projecteuler.net/problem=1) | L00 [1%] | Multiples of 3 or 5 | [x] | [x] |
 | [002](https://projecteuler.net/problem=2) | L00 [1%] | Even Fibonacci Numbers | [x] | [x] |
 | [003](https://projecteuler.net/problem=3) | L00 [1%] | Largest Prime Factor | [x] | [ ] |
 | [004](https://projecteuler.net/problem=4) | L00 [2%] | Largest Palindrome Product | [x] | [ ] |
 | [005](https://projecteuler.net/problem=5) | L00 [1%] | Smallest Multiple | [x] | [ ] |
-| [006](https://projecteuler.net/problem=6) | L00 [1%] | Sum Square Difference | [x] | [ ] |
+| [006](https://projecteuler.net/problem=6) | L00 [1%] | Sum Square Difference | [x] | [x] |
 | [007](https://projecteuler.net/problem=7) | L00 [1%] | 10 001st Prime | [x] | [ ] |
 | [008](https://projecteuler.net/problem=8) | L00 [2%] | Largest Product in a Series | [x] | [ ] |
 | [009](https://projecteuler.net/problem=9) | L00 [1%] | Special Pythagorean Triplet | [x] | [ ] |
