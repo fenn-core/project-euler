@@ -2,8 +2,6 @@
 
 Multi-language Project Euler repository dashboard.
 
-This file is updated with the included Python script.
-
 <!-- EULER_DASHBOARD_START -->
 
 ## Progress
