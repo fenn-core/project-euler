@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-Project Euler problems repository 
-=======
 # Project Euler Progress
 
 Multi-language Project Euler repository dashboard.
-
-<!-- EULER_DASHBOARD_START -->
 
 ## Progress
 
@@ -13,13 +8,12 @@ Multi-language Project Euler repository dashboard.
 **Completion:** `4.6%`  
 **Progress:** `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
-
 ## Language Implementation Counts
 
 | Language | Implemented |
 |---|------------:|
-| Python |          46 |
-| C |           3 |
+| Python | 46 |
+| C | 4 |
 
 ## Legend
 
@@ -34,7 +28,7 @@ Multi-language Project Euler repository dashboard.
 
 ## Implemented Problems
 
-| Problem | Difficulty | Title | Python |  C  |
+| Problem | Difficulty | Title | Python | C |
 |---:|---:|---|:---:|:---:|
 | [001](https://projecteuler.net/problem=1) | L00 [1%] | Multiples of 3 or 5 | [x] | [x] |
 | [002](https://projecteuler.net/problem=2) | L00 [1%] | Even Fibonacci Numbers | [x] | [x] |
@@ -43,7 +37,7 @@ Multi-language Project Euler repository dashboard.
 | [005](https://projecteuler.net/problem=5) | L00 [1%] | Smallest Multiple | [x] | [ ] |
 | [006](https://projecteuler.net/problem=6) | L00 [1%] | Sum Square Difference | [x] | [x] |
 | [007](https://projecteuler.net/problem=7) | L00 [1%] | 10 001st Prime | [x] | [ ] |
-| [008](https://projecteuler.net/problem=8) | L00 [2%] | Largest Product in a Series | [x] | [ ] |
+| [008](https://projecteuler.net/problem=8) | L00 [2%] | Largest Product in a Series | [x] | [x] |
 | [009](https://projecteuler.net/problem=9) | L00 [1%] | Special Pythagorean Triplet | [x] | [ ] |
 | [010](https://projecteuler.net/problem=10) | L00 [2%] | Summation of Primes | [x] | [ ] |
 | [011](https://projecteuler.net/problem=11) | L01 [4%] | Largest Product in a Grid | [x] | [ ] |
@@ -55,7 +49,7 @@ Multi-language Project Euler repository dashboard.
 | [020](https://projecteuler.net/problem=20) | L00 [1%] | Factorial Digit Sum | [x] | [ ] |
 | [021](https://projecteuler.net/problem=21) | L01 [4%] | Amicable Numbers | [x] | [ ] |
 | [022](https://projecteuler.net/problem=22) | L00 [2%] | Names Scores | [x] | [ ] |
-| [025](https://projecteuler.net/problem=25) | L01 [4%] | -digit Fibonacci Number | [x] | [ ] |
+| [025](https://projecteuler.net/problem=25) | L01 [4%] | 1000-digit Fibonacci Number | [x] | [ ] |
 | [027](https://projecteuler.net/problem=27) | L01 [4%] | Quadratic Primes | [x] | [ ] |
 | [029](https://projecteuler.net/problem=29) | L01 [5%] | Distinct Powers | [x] | [ ] |
 | [030](https://projecteuler.net/problem=30) | L00 [2%] | Digit Fifth Powers | [x] | [ ] |
@@ -82,7 +76,6 @@ Multi-language Project Euler repository dashboard.
 | [092](https://projecteuler.net/problem=92) | L01 [5%] | Square Digit Chains | [x] | [ ] |
 | [097](https://projecteuler.net/problem=97) | L01 [4%] | Large Non-Mersenne Prime | [x] | [ ] |
 | [099](https://projecteuler.net/problem=99) | L02 [7%] | Largest Exponential | [x] | [ ] |
-
 
 ## Progress by 100-Problem Block
 
@@ -252,9 +245,3 @@ Each cell is formatted as: `status problem difficulty`
 | ⬜ [971](https://projecteuler.net/problem=971) `L16` `42%` | ⬜ [972](https://projecteuler.net/problem=972) `L15` `40%` | ⬜ [973](https://projecteuler.net/problem=973) `L35` `90%` | ⬜ [974](https://projecteuler.net/problem=974) `L05` `15%` | ⬜ [975](https://projecteuler.net/problem=975) `L26` `69%` | ⬜ [976](https://projecteuler.net/problem=976) `L37` `94%` | ⬜ [977](https://projecteuler.net/problem=977) `L26` `68%` | ⬜ [978](https://projecteuler.net/problem=978) `L07` `19%` | ⬜ [979](https://projecteuler.net/problem=979) `L18` `47%` | ⬜ [980](https://projecteuler.net/problem=980) `L05` `14%` |
 | ⬜ [981](https://projecteuler.net/problem=981) `L16` `43%` | ⬜ [982](https://projecteuler.net/problem=982) `L29` `75%` | ⬜ [983](https://projecteuler.net/problem=983) `L39` `100%` | ⬜ [984](https://projecteuler.net/problem=984) `L32` `82%` | ⬜ [985](https://projecteuler.net/problem=985) `L06` `18%` | ⬜ [986](https://projecteuler.net/problem=986) `L35` `90%` | ⬜ [987](https://projecteuler.net/problem=987) `L21` `55%` | ⬜ [988](https://projecteuler.net/problem=988) `L18` `46%` | ⬜ [989](https://projecteuler.net/problem=989) `L36` `92%` | ⬜ [990](https://projecteuler.net/problem=990) `L??` `?%` |
 | ⬜ [991](https://projecteuler.net/problem=991) `L??` `?%` | ⬜ [992](https://projecteuler.net/problem=992) `L??` `?%` | ⬜ [993](https://projecteuler.net/problem=993) `L??` `?%` | ⬜ [994](https://projecteuler.net/problem=994) `L??` `?%` | ⬜ [995](https://projecteuler.net/problem=995) `L??` `?%` | ⬜ [996](https://projecteuler.net/problem=996) `L??` `?%` | ⬜ [997](https://projecteuler.net/problem=997) `L??` `?%` | ⬜ [998](https://projecteuler.net/problem=998) `L??` `?%` | ⬜ [999](https://projecteuler.net/problem=999) `L??` `?%` |  |
-
-
-<!-- EULER_DASHBOARD_END -->
-
-
->>>>>>> 4ef295cf1f059e4f5f0e9d1f1e341ed47830d383
