@@ -15,7 +15,6 @@ foreach(src ${SOURCES})
     add_executable(${name}
             ${src}
             ${CMAKE_SOURCE_DIR}/c/perf/perf.c
-            c/level_0/problem6.c
     )
 
     target_include_directories(${name} PRIVATE
