@@ -97,6 +97,36 @@ uint64_t problem8_sliding_window(void) {
 }
 
 
+/*
+ * Strangely enough, using the CMake Debug configuration,
+ * sliding window significantly outperforms brute force,
+ * as expected. However, in Release, the results reverse.
+ *
+ * This is largely due to aggressive compiler optimizations:
+ *
+ * - The brute-force inner loop is completely unrolled,
+ *   eliminating loop-control overhead.
+ *
+ * - Windows containing zero are skipped before performing
+ *   the multiplications.
+ *
+ * - Conditional moves cmov replace branches when updating
+ *   the maximum product.
+ *
+ * - Intermediate values are kept in registers, minimizing
+ *   memory accesses.
+ *
+ * Meanwhile, the sliding-window implementation still requires
+ * a relatively expensive 64 bit divq instruction for
+ * each window, whereas brute force uses cheaper multiplications.
+ *
+ * Since the window size is fixed at just 13 digits, the
+ * optimized O(13n) brute-force implementation can outperform the
+ * O(n) sliding-window algorithm.
+ *
+ */
+
+
 int main(void) {
     uint64_t (*volatile problem8_brute_force_ptr)(void) = &problem8_brute_force;
     uint64_t brute_force_checksum = 0;
