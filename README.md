@@ -4,8 +4,8 @@ Multi-language Project Euler repository dashboard.
 
 ## Progress
 
-**Solved:** `46 / 999`  
-**Completion:** `4.6%`  
+**Solved:** `47 / 999`  
+**Completion:** `4.7%`  
 **Progress:** `█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░`
 
 ## Language Implementation Counts
@@ -13,7 +13,7 @@ Multi-language Project Euler repository dashboard.
 | Language | Implemented |
 |---|------------:|
 | Python | 46 |
-| C | 5 |
+| C | 6 |
 
 ## Legend
 
@@ -76,13 +76,14 @@ Multi-language Project Euler repository dashboard.
 | [092](https://projecteuler.net/problem=92) | L01 [5%] | Square Digit Chains | [x] | [ ] |
 | [097](https://projecteuler.net/problem=97) | L01 [4%] | Large Non-Mersenne Prime | [x] | [ ] |
 | [099](https://projecteuler.net/problem=99) | L02 [7%] | Largest Exponential | [x] | [ ] |
+| [112](https://projecteuler.net/problem=112) | L02 [7%] | Bouncy Numbers | [ ] | [x] |
 
 ## Progress by 100-Problem Block
 
 | Range | Implemented | Progress |
 |---:|---:|---|
 | 001–100 | 46/100 | `█████████░░░░░░░░░░░` |
-| 101–200 | 0/100 | `░░░░░░░░░░░░░░░░░░░░` |
+| 101–200 | 1/100 | `░░░░░░░░░░░░░░░░░░░░` |
 | 201–300 | 0/100 | `░░░░░░░░░░░░░░░░░░░░` |
 | 301–400 | 0/100 | `░░░░░░░░░░░░░░░░░░░░` |
 | 401–500 | 0/100 | `░░░░░░░░░░░░░░░░░░░░` |
@@ -98,7 +99,7 @@ Multi-language Project Euler repository dashboard.
 |---:|---:|---|
 | L00 | 23/25 | `██████████████████░░` |
 | L01 | 19/25 | `███████████████░░░░░` |
-| L02 | 3/25 | `██░░░░░░░░░░░░░░░░░░` |
+| L02 | 4/25 | `███░░░░░░░░░░░░░░░░░` |
 | L03 | 1/25 | `█░░░░░░░░░░░░░░░░░░░` |
 | L04 | 0/25 | `░░░░░░░░░░░░░░░░░░░░` |
 | L05 | 0/25 | `░░░░░░░░░░░░░░░░░░░░` |
@@ -156,7 +157,7 @@ Each cell is formatted as: `status problem difficulty`
 | ⬜ [081](https://projecteuler.net/problem=81) `L02` `7%` | ⬜ [082](https://projecteuler.net/problem=82) `L03` `10%` | ⬜ [083](https://projecteuler.net/problem=83) `L04` `12%` | ⬜ [084](https://projecteuler.net/problem=84) `L08` `22%` | ⬜ [085](https://projecteuler.net/problem=85) `L02` `8%` | ⬜ [086](https://projecteuler.net/problem=86) `L07` `20%` | ⬜ [087](https://projecteuler.net/problem=87) `L03` `9%` | ⬜ [088](https://projecteuler.net/problem=88) `L10` `27%` | ⬜ [089](https://projecteuler.net/problem=89) `L03` `9%` | ⬜ [090](https://projecteuler.net/problem=90) `L09` `24%` |
 | ⬜ [091](https://projecteuler.net/problem=91) `L06` `17%` | ✅ [092](https://projecteuler.net/problem=92) `L01` `5%` | ⬜ [093](https://projecteuler.net/problem=93) `L08` `23%` | ⬜ [094](https://projecteuler.net/problem=94) `L11` `30%` | ⬜ [095](https://projecteuler.net/problem=95) `L05` `14%` | ⬜ [096](https://projecteuler.net/problem=96) `L04` `12%` | ✅ [097](https://projecteuler.net/problem=97) `L01` `4%` | ⬜ [098](https://projecteuler.net/problem=98) `L08` `23%` | ✅ [099](https://projecteuler.net/problem=99) `L02` `7%` | ⬜ [100](https://projecteuler.net/problem=100) `L07` `18%` |
 | ⬜ [101](https://projecteuler.net/problem=101) `L09` `24%` | ⬜ [102](https://projecteuler.net/problem=102) `L03` `8%` | ⬜ [103](https://projecteuler.net/problem=103) `L11` `30%` | ⬜ [104](https://projecteuler.net/problem=104) `L04` `11%` | ⬜ [105](https://projecteuler.net/problem=105) `L13` `34%` | ⬜ [106](https://projecteuler.net/problem=106) `L14` `38%` | ⬜ [107](https://projecteuler.net/problem=107) `L08` `22%` | ⬜ [108](https://projecteuler.net/problem=108) `L06` `17%` | ⬜ [109](https://projecteuler.net/problem=109) `L11` `30%` | ⬜ [110](https://projecteuler.net/problem=110) `L10` `27%` |
-| ⬜ [111](https://projecteuler.net/problem=111) `L12` `33%` | ⬜ [112](https://projecteuler.net/problem=112) `L02` `7%` | ⬜ [113](https://projecteuler.net/problem=113) `L07` `19%` | ⬜ [114](https://projecteuler.net/problem=114) `L07` `21%` | ⬜ [115](https://projecteuler.net/problem=115) `L08` `23%` | ⬜ [116](https://projecteuler.net/problem=116) `L08` `21%` | ⬜ [117](https://projecteuler.net/problem=117) `L08` `23%` | ⬜ [118](https://projecteuler.net/problem=118) `L13` `36%` | ⬜ [119](https://projecteuler.net/problem=119) `L07` `19%` | ⬜ [120](https://projecteuler.net/problem=120) `L04` `13%` |
+| ⬜ [111](https://projecteuler.net/problem=111) `L12` `33%` | ✅ [112](https://projecteuler.net/problem=112) `L02` `7%` | ⬜ [113](https://projecteuler.net/problem=113) `L07` `19%` | ⬜ [114](https://projecteuler.net/problem=114) `L07` `21%` | ⬜ [115](https://projecteuler.net/problem=115) `L08` `23%` | ⬜ [116](https://projecteuler.net/problem=116) `L08` `21%` | ⬜ [117](https://projecteuler.net/problem=117) `L08` `23%` | ⬜ [118](https://projecteuler.net/problem=118) `L13` `36%` | ⬜ [119](https://projecteuler.net/problem=119) `L07` `19%` | ⬜ [120](https://projecteuler.net/problem=120) `L04` `13%` |
 | ⬜ [121](https://projecteuler.net/problem=121) `L10` `26%` | ⬜ [122](https://projecteuler.net/problem=122) `L15` `39%` | ⬜ [123](https://projecteuler.net/problem=123) `L07` `19%` | ⬜ [124](https://projecteuler.net/problem=124) `L04` `12%` | ⬜ [125](https://projecteuler.net/problem=125) `L05` `13%` | ⬜ [126](https://projecteuler.net/problem=126) `L18` `46%` | ⬜ [127](https://projecteuler.net/problem=127) `L14` `37%` | ⬜ [128](https://projecteuler.net/problem=128) `L17` `46%` | ⬜ [129](https://projecteuler.net/problem=129) `L14` `37%` | ⬜ [130](https://projecteuler.net/problem=130) `L15` `39%` |
 | ⬜ [131](https://projecteuler.net/problem=131) `L11` `29%` | ⬜ [132](https://projecteuler.net/problem=132) `L12` `32%` | ⬜ [133](https://projecteuler.net/problem=133) `L14` `38%` | ⬜ [134](https://projecteuler.net/problem=134) `L12` `31%` | ⬜ [135](https://projecteuler.net/problem=135) `L13` `36%` | ⬜ [136](https://projecteuler.net/problem=136) `L15` `39%` | ⬜ [137](https://projecteuler.net/problem=137) `L18` `47%` | ⬜ [138](https://projecteuler.net/problem=138) `L14` `37%` | ⬜ [139](https://projecteuler.net/problem=139) `L15` `41%` | ⬜ [140](https://projecteuler.net/problem=140) `L21` `54%` |
 | ⬜ [141](https://projecteuler.net/problem=141) `L21` `54%` | ⬜ [142](https://projecteuler.net/problem=142) `L14` `38%` | ⬜ [143](https://projecteuler.net/problem=143) `L26` `67%` | ⬜ [144](https://projecteuler.net/problem=144) `L16` `43%` | ⬜ [145](https://projecteuler.net/problem=145) `L03` `9%` | ⬜ [146](https://projecteuler.net/problem=146) `L16` `42%` | ⬜ [147](https://projecteuler.net/problem=147) `L24` `61%` | ⬜ [148](https://projecteuler.net/problem=148) `L15` `40%` | ⬜ [149](https://projecteuler.net/problem=149) `L16` `43%` | ⬜ [150](https://projecteuler.net/problem=150) `L18` `48%` |
