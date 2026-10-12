@@ -13,7 +13,7 @@ Multi-language Project Euler repository dashboard.
 | Language | Implemented |
 |---|------------:|
 | Python | 46 |
-| C | 4 |
+| C | 5 |
 
 ## Legend
 
@@ -38,7 +38,7 @@ Multi-language Project Euler repository dashboard.
 | [006](https://projecteuler.net/problem=6) | L00 [1%] | Sum Square Difference | [x] | [x] |
 | [007](https://projecteuler.net/problem=7) | L00 [1%] | 10 001st Prime | [x] | [ ] |
 | [008](https://projecteuler.net/problem=8) | L00 [2%] | Largest Product in a Series | [x] | [x] |
-| [009](https://projecteuler.net/problem=9) | L00 [1%] | Special Pythagorean Triplet | [x] | [ ] |
+| [009](https://projecteuler.net/problem=9) | L00 [1%] | Special Pythagorean Triplet | [x] | [x] |
 | [010](https://projecteuler.net/problem=10) | L00 [2%] | Summation of Primes | [x] | [ ] |
 | [011](https://projecteuler.net/problem=11) | L01 [4%] | Largest Product in a Grid | [x] | [ ] |
 | [012](https://projecteuler.net/problem=12) | L00 [3%] | Highly Divisible Triangular Number | [x] | [ ] |
