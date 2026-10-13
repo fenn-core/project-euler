@@ -1,7 +1,6 @@
 #include "perf.h"
-#include <stdio.h>
 #include <stdint.h>
-#include <inttypes.h>
+#include <stdio.h>
 
 
 const char digits[] =
@@ -129,36 +128,10 @@ uint64_t problem8_sliding_window(void) {
 
 int main(void) {
     uint64_t (*volatile problem8_brute_force_ptr)(void) = &problem8_brute_force;
-    uint64_t brute_force_checksum = 0;
-
-    double brute_force_initial = perf_counter();
-
-    for (size_t iters = 0; iters < ITERATIONS; ++iters) {
-        brute_force_checksum += problem8_brute_force_ptr();
-    }
-
-    double brute_force_elapsed = perf_counter() - brute_force_initial;
-    uint64_t brute_force_result = brute_force_checksum / ITERATIONS;
-
-    printf("brute force average: %.3f us\n", brute_force_elapsed * 1e6 / ITERATIONS);
-    printf("brute force result: %" PRIu64 "\n\n", brute_force_result);
-
+    BENCHMARK(ITERATIONS, "brute force", problem8_brute_force_ptr);
 
     uint64_t (*volatile problem8_sliding_window_ptr)(void) = &problem8_sliding_window;
-    uint64_t sliding_window_checksum = 0;
-
-    double sliding_window_initial = perf_counter();
-
-    for (size_t iters = 0; iters < ITERATIONS; ++iters) {
-        sliding_window_checksum += problem8_sliding_window_ptr();
-    }
-
-    double sliding_window_elapsed = perf_counter() - sliding_window_initial;
-    uint64_t sliding_window_result = sliding_window_checksum / ITERATIONS;
-
-    printf("sliding window average: %.3f us\n", sliding_window_elapsed * 1e6 / ITERATIONS);
-    printf("sliding window result: %" PRIu64 "\n\n", sliding_window_result);
-
+    BENCHMARK(ITERATIONS, "sliding window", problem8_sliding_window_ptr);
 
     printf("expected result: 23514624000\n");
 

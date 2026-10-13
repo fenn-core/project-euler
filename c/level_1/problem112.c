@@ -1,8 +1,7 @@
 #include "perf.h"
-#include <stdio.h>
 #include <stdint.h>
+#include <stdio.h>
 #include <stdbool.h>
-#include <inttypes.h>
 
 #undef ITERATIONS
 #define ITERATIONS  500
@@ -52,21 +51,8 @@ int problem112(void) {
 
 
 int main(void) {
-    int (*volatile problem112_ptr)(void) = &problem112;
-    uint64_t checksum = 0;
-
-    double initial = perf_counter();
-
-    for (size_t iters = 0; iters < ITERATIONS; ++iters) {
-        checksum += problem112_ptr();
-    }
-
-    double elapsed = perf_counter() - initial;
-    uint64_t result = checksum / ITERATIONS;
-
-    printf("average: %.3f us\n", elapsed * 1e6 / ITERATIONS);
-    printf("result: %" PRIu64 "\n\n", result);
-
+    int (* volatile fn)(void) = &problem112;
+    BENCHMARK(ITERATIONS, "", fn);
 
     printf("expected result: 1587000\n");
 

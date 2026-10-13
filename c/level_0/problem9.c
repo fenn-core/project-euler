@@ -1,6 +1,6 @@
 #include "perf.h"
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 #include <stdint.h>
 
 
@@ -47,36 +47,10 @@ int problem9_optimized_search(void) {
 
 int main(void) {
     int (*volatile problem9_brute_force_ptr)(void) = &problem9_brute_force;
-    uint64_t brute_force_checksum = 0;
-
-    double brute_force_initial = perf_counter();
-
-    for (size_t iters = 0; iters < ITERATIONS; ++iters) {
-        brute_force_checksum += problem9_brute_force_ptr();
-    }
-
-    double brute_force_elapsed = perf_counter() - brute_force_initial;
-    int brute_force_result = (int) (brute_force_checksum / ITERATIONS);
-
-    printf("brute force average: %.3f us\n", brute_force_elapsed * 1e6 / ITERATIONS);
-    printf("brute force result: %d\n\n", brute_force_result);
-
+    BENCHMARK(ITERATIONS, "brute force", problem9_brute_force_ptr);
 
     int (*volatile problem9_optimized_search_ptr)(void) = &problem9_optimized_search;
-    uint64_t optimized_search_checksum = 0;
-
-    double optimized_search_initial = perf_counter();
-
-    for (size_t iters = 0; iters < ITERATIONS; ++iters) {
-        optimized_search_checksum += problem9_optimized_search_ptr();
-    }
-
-    double optimized_search_elapsed = perf_counter() - optimized_search_initial;
-    int optimized_search_result = (int) (optimized_search_checksum / ITERATIONS);
-
-    printf("optimized search average: %.3f us\n", optimized_search_elapsed * 1e6 / ITERATIONS);
-    printf("optimized search result: %d\n\n", optimized_search_result);
-
+    BENCHMARK(ITERATIONS, "optimized search", problem9_optimized_search_ptr);
 
     printf("expected result: 31875000 \n");
 

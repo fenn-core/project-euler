@@ -2,29 +2,26 @@
 #include <stdio.h>
 
 
-int main(void) {
-
-    double initial_time = perf_counter();
-
+int problem2(void) {
     int a = 0;
     int b = 1;
     int total = 0;
-
     while (b < 4000000) {
         if (b % 2 == 0) {
             total += b;
         }
-
         int next = a + b;
         a = b;
         b = next;
-
     }
+}
 
-    double elapsed_time = perf_counter() - initial_time;
 
-    printf("%d \n", total);
-    printf("%f \n", elapsed_time);
+int main(void) {
+    int (*volatile problem2_ptr)(void) = &problem2;
+    BENCHMARK(ITERATIONS, "", problem2_ptr);
+
+    printf("expected result: 5702887");
 
     return 0;
 
