@@ -20,4 +20,6 @@ foreach(src ${SOURCES})
     target_include_directories(${name} PRIVATE
             ${CMAKE_SOURCE_DIR}/c/perf
     )
+
+    target_link_libraries(${name} PRIVATE m)
 endforeach()
